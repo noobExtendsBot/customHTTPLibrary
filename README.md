@@ -16,5 +16,5 @@ delete()
 A starter template is already there. Just clone the repo.
 
 ```sh
-git clone link
+git clone https://github.com/noobExtendsBot/customHTTPLibrary.git
 ```
