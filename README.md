@@ -10,6 +10,7 @@ post()
 put()
 delete()
 ```
+To make the use of above functions [JsonPlaceHolder](https://jsonplaceholder.typicode.com/) has been used.
 
 ### Installation
 
