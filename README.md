@@ -8,6 +8,7 @@ customHTTPLibrary is simple HTTP library using fetch, promises instead of AJAX a
 get()
 post()
 put()
+patch()
 delete()
 ```
 To make the use of above functions [JsonPlaceHolder](https://jsonplaceholder.typicode.com/) has been used.

@@ -17,6 +17,12 @@ http.put('https://jsonplaceholder.typicode.com/users/2', data)
     .then((data) => console.log(data))
     .catch(err => console.log(err));
 
+//PUT Request (to update a specified resource)
+
+http.patch('https://jsonplaceholder.typicode.com/users/3', data)
+    .then((data) => console.log(data))
+    .catch(err => console.log(err));
+
 // POST Request (to add new users)
 
 // http.post('https://jsonplaceholder.typicode.com/users/3', data)

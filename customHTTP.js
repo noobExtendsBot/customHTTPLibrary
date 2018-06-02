@@ -51,6 +51,22 @@ class customHTTP {
         });
     }
 
+    patch(url, data) {
+
+        return new Promise(function(resolve, reject){
+            fetch(url, {
+                method: 'PATCH',
+                headers: {
+                    'Content-type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(res => res.json())
+            .then(data => resolve(data))
+            .catch(err => reject(err))
+        });
+    }
+
     // Make a HTTP DELETE Request
     delete(url) {
         return new Promise(function(resolve, reject){
