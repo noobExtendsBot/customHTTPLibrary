@@ -12,7 +12,7 @@ class customHTTP {
         return new Promise(function(resolve, reject){
             fetch(url)
             .then(res => res.json())
-            .then((data) => resolve(data))
+            .then(data => resolve(data))
             .catch(err => reject(err));
         });
     }
@@ -29,7 +29,7 @@ class customHTTP {
                 body: JSON.stringify(data)
             })
             .then(res => res.json())
-            .then((data) => resolve(data))
+            .then(data => resolve(data))
             .catch(err => reject(err));
         });
     }
@@ -77,7 +77,7 @@ class customHTTP {
                 },
             })
             .then(res => res.json())
-            .then((data) => resolve("Item deleted"))
+            .then(data => resolve("Item deleted"))
             .catch(err => reject(err));
         });
     }
